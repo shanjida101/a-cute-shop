@@ -418,7 +418,7 @@ body {
     color: pink;
 }
 
-/* Overall Product Section Styling */
+
 .product {
     padding: 2rem;
     text-align: center;
@@ -441,7 +441,6 @@ body {
     padding: 1rem; 
 }
 
-/* Individual Product Box */
 .box {
     background-color: white;
     display: flex;
@@ -459,12 +458,10 @@ body {
 
 }
 .box > * {
-    margin-bottom: 0; /* Reset margin on all child elements */
+    margin-bottom: 0; 
 }
 
 
-
-/* Hover Effect */
 .box:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(213, 7, 7, 0.2);
@@ -486,7 +483,7 @@ body {
     height: 100%;
 }
 
-/* Icons on Hover */
+
 .box .icons {
     position: absolute;
     bottom: 10px;
@@ -518,7 +515,6 @@ body {
     background-color: #871515;
 }
 
-/* Add to Cart Button */
 .cart-btn {
     padding: 0.5rem 1rem;
     background-color: #e91e63;
@@ -535,7 +531,6 @@ body {
     background-color: #d01414;
 }
 
-/* Content Inside the Box */
 .content3 {
     background: palevioletred; 
     position: fixed;
